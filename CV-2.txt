@@ -1,0 +1,15 @@
+1)Convolution is a mathematical operation that allows the merging of two sets of information. In the case of CNN, convolution is applied to the input data to filter the information and produce a feature map.
+Convolutional neural networks are often used for image classification. By recognizing valuable features, CNN can identify different objects on images. This ability makes them useful in medicine, for example, for MRI diagnostics. CNN can be also used in agriculture. The networks receive images from satellites like LSAT and can use this information to classify lands based on their level of cultivation. Consequently, this data can be used for making predictions about the fertility level of the grounds or developing a strategy for the optimal use of farmland. Hand-written digits recognition is also one of the earliest uses of CNN for computer vision.
+Self-driving cars, AI-powered surveillance systems, and smart homes often use CNN to be able to identify and mark objects. CNN can identify objects on the photos and in real-time, classify, and label them. This is how an automated vehicle finds its way around other cars and pedestrians and smart homes recognize the owner’s face among all others.
+
+2)Unlike with traditional code refactoring, DNN refactoring does not guarantee functional equivalence of the two networks, but rather it aims to preserve the accuracy of the original network while producing a simpler network that is amenable to more efficient property verification.
+
+3)Flattening is used to convert all the resultant 2-Dimensional arrays from pooled feature maps into a single long continuous linear vector. The flattened matrix is fed as input to the fully connected layer to classify the image.
+In MNIST after creating all the convolutional layers, we need to flatten them, so that they can act as an input to the Dense layers.Dense layers are keras’s alias for Fully connected layers. These layers give the ability to classify the features learned by the CNN.
+
+4)NCHW stands for: batch N, channels C, height H, width W. It is a way to store multidimensional arrays / data frames / matrix into memory, which can be considered as a 1-D array.
+
+6)Receptive fields are defined portion of space or spatial construct containing units that provide input to a set of units within a corresponding layer. The receptive field is defined by the filter size of a layer within a convolution neural network.
+
+8)The RGB color image is seen as a 3rd-order tensor to exploit the spatial and interchannel correlation, so that blurring effects are captured more robustly.
+
